@@ -11,3 +11,8 @@ As there was no dbms requirement, users are stored in an array on the backend.
 The plan is to extend this to a dbms in the future, such as mongodb.
 
 The reason for this is because i really want to work with noSQL databases.
+
+
+To run, cd into /api, and run npm start - this will start the node server.
+
+THen, cd into app-ui - this will start the vuejs frontend.
