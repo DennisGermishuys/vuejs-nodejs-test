@@ -1,7 +1,7 @@
 # vuejs-nodejs-test
 A small project learning to use vue with node
 
-Had to complete this little project in about 2 days, as i had some constraints at work.
+Had to complete this little project in a little under 2 days, as I had some constraints at work.
 
 It turns our that i really like vue, so i will be expanding on this in the future in my free time.
 
@@ -20,3 +20,6 @@ Then, cd into app-ui, and run nm run serve - this will start the vuejs frontend.
 Please run npm install in both of these folders before running them.
 
 For now, in order to log in as admin, please fill 'admin' into all fields, and select "login as admin".
+
+Create a user, then log in as that user.
+You will then be redirected to a page with your basic weather data.
