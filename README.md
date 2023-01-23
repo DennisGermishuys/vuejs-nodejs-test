@@ -15,4 +15,6 @@ The reason for this is because i really want to work with noSQL databases.
 
 To run, cd into /api, and run npm start - this will start the node server.
 
-Then, cd into app-ui - this will start the vuejs frontend.
+Then, cd into app-ui, and run nm run serve - this will start the vuejs frontend.
+
+Please run npm install in both of these folders before running them.
