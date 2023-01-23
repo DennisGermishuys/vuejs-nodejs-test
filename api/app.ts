@@ -31,7 +31,6 @@ class App {
 
         this.express.get("/", (req, res, next) => {
             res.sendFile(process.cwd() + "/app-ui/dist/index.html");
-            // this.users.push(['Dennis Germishuys'])
         });
 
         // user route

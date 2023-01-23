@@ -73,17 +73,6 @@ class User {
                 }
             );
 
-
-
-
-            // if (this.users.includes(req.body.user.email)) {
-            //     res.json(req.body);
-            // } else {
-            //     return null
-            // }
-
-
-            // res.json(this.users);
         })
     }
 }
