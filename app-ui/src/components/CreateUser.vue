@@ -21,7 +21,6 @@
                     </div>
                 </div>
                 <button type="button" @click='createUser()' class="btn btn-danger mrgnbtm">Create</button>
-<!--                <button type="button" @click='adminLogin()' class="btn btn-danger mrgnbtm">Login as admin</button>-->
             </form>
         </div>
     </div>

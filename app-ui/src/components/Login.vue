@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-7 mrgnbtm">
-        <h2>Create User</h2>
+        <h2>Fill out the form, and choose an option</h2>
         <form>
           <div class="row">
             <div class="form-group col-md-6 mrgnbtm">
@@ -20,9 +20,9 @@
               <input type="text" class="form-control" v-model="email" name="email" id="email" aria-describedby="emailHelp" placeholder="Email" required/>
             </div>
           </div>
-          <button type="button" @click='userLogin()' class="btn btn-danger mrgnbtm">Login</button>
-          <button type="button" @click='adminLogin()' class="btn btn-danger mrgnbtm">Login As admin</button>
-          <button type="button" @click='createUser()' class="btn btn-danger mrgnbtm">Create An Account</button>
+          <button type="button" @click='userLogin()' class="btn btn-danger my-4 ">Login</button>
+          <button type="button" @click='adminLogin()' class="btn btn-danger my-4 mx-4">Login As admin</button>
+          <button type="button" @click='createUser()' class="btn btn-danger my-4">Create An Account</button>
         </form>
       </div>
     </div>
