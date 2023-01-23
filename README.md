@@ -18,3 +18,5 @@ To run, cd into /api, and run npm start - this will start the node server.
 Then, cd into app-ui, and run nm run serve - this will start the vuejs frontend.
 
 Please run npm install in both of these folders before running them.
+
+For now, in order to log in as admin, please fill 'admin' into all fields, and select "login as admin".
