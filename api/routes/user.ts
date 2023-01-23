@@ -64,15 +64,23 @@ class User {
 
         this.express.post("/login", (req, res, next) => {
             this.logger.info("url:::::::" + req.url);
+            this.users.filter((user) => {
+                if(user.email === req.body.user.email) {
+                    res.json(req.body.user)
+                } else {
+                    res.json({error: 'error'})
+                }
+                }
+            );
 
-            if (this.users.includes(req.body.user.email)) {
-                return true
-            }
-            // const user = this.users.filter(function(user) {
-            //     if (req.body.user.email === user.email) {
-            //         return user;
-            //     }
-            // });
+
+
+
+            // if (this.users.includes(req.body.user.email)) {
+            //     res.json(req.body);
+            // } else {
+            //     return null
+            // }
 
 
             // res.json(this.users);
